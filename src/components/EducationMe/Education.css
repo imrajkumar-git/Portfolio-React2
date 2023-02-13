@@ -1,0 +1,406 @@
+#education {
+
+    /* border: 1px solid yellow; */
+    height: fit-content;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.education__container {
+    
+    /* border: 1px solid yellow; */
+    padding: .2vw;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 60% 35%;
+    gap: 2.5%;
+
+}
+
+.education__content {
+    width: 98%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    
+    gap: 2vw;
+}
+
+/* .education__Full-Stack-Web-Development {
+    border: 1px solid green;
+} */
+
+.education__Full-Stack-Web-Development-icone {
+
+    background: var(--color-bg-variant);
+    margin: auto;
+    width: 98%;
+    height: 4vw;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: start;
+    
+    align-items: center;
+    gap: .4vw;
+    border-radius: .5rem;
+    padding: .5rem 1rem .2rem .2rem;
+    text-align: center;
+    font-size: 1.5vw;
+    transition: var(--transition);
+}
+
+.education__Full-Stack-Web-Development-icone:hover {
+    background: transparent;
+
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.education__Full-Stack-Web-Development-contect {
+    background: rgb(206,206,206);
+    color: rgb(96, 96, 211);
+    border-radius: .5rem;
+    width: 98%;
+    margin: auto;
+    margin-top: .4vw;
+    padding: 1vw;
+}
+
+.grid{
+  
+    grid-template-columns: repeat(2, 1fr);
+}
+.line1::selection{
+    color: black;
+}
+.line2{
+    font-size: 7rem;
+}
+.line2 p{
+    font-size:1rem;
+    margin-top: -30px;
+    color: orangered;
+
+}
+.line3 p{
+    font-size: 1rem;
+    margin-top: -30px;
+    color: orangered;
+}
+.line3
+{
+    margin-left: 8rem;
+    font-size: 7rem;
+}
+.line2 h6{
+    font-size: 0.8rem;
+}
+.line1 span{
+    margin-top: 43px;
+}
+
+/* .education__BTech-Mechanical-Engineering {
+    border: 1px solid red;
+} */
+
+.education__Full-Stack-Web-Development-contect-skills {
+    background: rgb(206,206,206);
+    color: rgb(96, 96, 211);
+    border-radius: .5rem;
+    width: 40%;
+    margin-top: .4vw;
+    padding: 1vw;
+    margin-left: .5vw;
+}
+
+
+
+.education__image {
+    border: 1px solid white;
+    margin: 0rem;
+    height: 27rem;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    display: grid;
+    place-items: center;
+}
+
+.education__image-logo {
+    display: flex;
+    height: 100%;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(0deg);
+    
+    transition: var(--transition);
+}
+
+.education__image-logo:hover {
+    transform: rotate(0deg);
+}
+
+/* ------------------------- Media Queries (Medium Screen) ------------------- */
+
+@media screen and (max-width : 1305px) {
+    
+}
+
+/* ------------------------- Media Queries (Medium Screen) ------------------- */
+
+@media screen and (max-width : 1024px) {
+
+    .education__image {
+        border: 1px solid white;
+        margin: 0rem;
+        height: 22rem;
+        width: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 2rem;
+        background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+        display: grid;
+        place-items: center;
+    }
+    
+    .education__image-logo {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        border-radius: 2rem;
+        overflow: hidden;
+        transform: rotate(0deg);
+        
+        transition: var(--transition);
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 2rem;
+    }
+    .education__Full-Stack-Web-Development-contect-skills {
+        background: rgb(206,206,206);
+        color: rgb(96, 96, 211);
+        border-radius: .5rem;
+        width: 50%;
+        margin-top: .4vw;
+        padding: 1vw;
+        margin-left: .5vw;
+    }
+}
+@media screen and (max-width : 860px) {
+
+    .education__image {
+        border: 1px solid white;
+        margin: 0rem;
+        height: 20rem;
+        width: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 2rem;
+        background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+        display: grid;
+        place-items: center;
+    } 
+    .education__image-logo {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        border-radius: 2rem;
+        overflow: hidden;
+        transform: rotate(0deg);
+        
+        transition: var(--transition);
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 2rem;
+    }
+    .education__Full-Stack-Web-Development-contect-skills {
+        background: rgb(206,206,206);
+        color: rgb(96, 96, 211);
+        border-radius: .5rem;
+        width: 60%;
+        margin-top: .4vw;
+        padding: 1vw;
+        margin-left: .5vw;
+    }
+}
+
+@media screen and (max-width : 760px) {
+
+    .education__image {
+        border: 1px solid white;
+        margin: 0rem;
+        height: 18rem;
+        width: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 2rem;
+        background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+        display: grid;
+        place-items: center;
+    }
+
+    .education__Full-Stack-Web-Development-contect-skills {
+        background: rgb(206,206,206);
+        color: rgb(96, 96, 211);
+        border-radius: .5rem;
+        width: 65%;
+        margin-top: .4vw;
+        padding: 1vw;
+        margin-left: .5vw;
+    }
+}
+
+@media screen and (max-width : 670px) {
+
+    .education__image {
+        border: 1px solid white;
+        margin: 0rem;
+        height: 14rem;
+        width: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 2rem;
+        background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+        display: grid;
+        place-items: center;
+    }
+
+    .education__Full-Stack-Web-Development-contect-skills {
+        background: rgb(206,206,206);
+        color: rgb(96, 96, 211);
+        border-radius: .5rem;
+        width: 80%;
+        margin-top: .4vw;
+        padding: 1vw;
+        margin-left: .5vw;
+    }
+
+    .education__Full-Stack-Web-Development-icone {
+        font-size: 2vw;
+    }
+}
+
+
+
+@media screen and (max-width : 600px) {
+
+    .education__container {
+    
+        /* border: 1px solid yellow; */
+        padding: .2vw;
+        width: 80vw;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+    .education__image {
+        border: 1px solid white;
+        margin: auto;
+        height: 40vw;
+        width: 65%;
+        aspect-ratio: 1/1;
+        border-radius: 2rem;
+        background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+        display: grid;
+        place-items: center;
+        margin-bottom: 2vw;
+    }
+    .education__image-logo {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        border-radius: 2rem;
+        overflow: hidden;
+        transform: rotate(0deg);
+        
+        transition: var(--transition);
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .education__content {
+        width: 98%;
+        /* border: 1px solid black; */
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        
+        gap: 2vw;
+    }
+    .education__Full-Stack-Web-Development {
+        width: 100%;
+        /* border: 1px solid green; */
+    }
+    
+    .education__Full-Stack-Web-Development-icone {
+        width: 99%;
+        height: 6vw;
+        display: flex;
+        justify-content: start;
+        
+        align-items: center;
+        gap: .4vw;
+        border-radius: .5rem;
+        padding: .5rem 1rem .2rem .2rem;
+        text-align: center;
+        font-size: 3vw;
+        transition: var(--transition);
+    }
+    
+    .education__Full-Stack-Web-Development-icone:hover {
+        background: transparent;
+        border-color: var(--color-primary-variant);
+        cursor: default;
+    }
+    
+    .education__Full-Stack-Web-Development-contect {
+        background: rgb(206,206,206);
+        color: rgb(96, 96, 211);
+        border-radius: .5rem;
+        text-align: justify;
+        font-size: 2.8vw;
+        width: 99%;
+        margin: auto;
+        margin-top: .4vw;
+        padding: 1vw;
+    }
+    
+    /* .education__BTech-Mechanical-Engineering {
+        border: 1px solid red;
+    } */
+
+    .education__Full-Stack-Web-Development-contect-skills {
+        background: rgb(206,206,206);
+        color: rgb(96, 96, 211);
+        border-radius: .5rem;
+        font-size: 2.8vw;
+        width: 80%;
+        margin-top: .4vw;
+        padding: 1vw;
+        margin-left: .5vw;
+    }
+.line3
+{
+    margin-left: 1rem;
+    font-size: 5rem;
+}
+.line3 p{
+    font-size: 0.70rem;
+    margin-top: -30px;
+    font-weight: 500;
+    color: orangered;
+}
+.line2{
+    font-size: 5rem;
+}
+.line2 p{
+    font-size:0.70rem;
+    margin-top: -30px;
+    color: orangered;
+    font-weight: 500;
+
+}
+
+}
