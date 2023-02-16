@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.d75bba0a.css",
-    "main.js": "/static/js/main.65f756ee.js",
+    "main.css": "/static/css/main.5ca499c3.css",
+    "main.js": "/static/js/main.2dea5bc5.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/resumes.pdf": "/static/media/resumes.dd049000a8aa7afdddf4.pdf",
     "static/media/nykaa.png": "/static/media/nykaa.2807712b99f2734b9176.png",
     "static/media/new3.png": "/static/media/new3.395b7c42206d6d3b45bd.png",
     "static/media/Minimalist.png": "/static/media/Minimalist.a5196ab52c3e69fd07a8.png",
     "static/media/Tic-Tac-Toe.jpeg": "/static/media/Tic-Tac-Toe.09b5f193ceb818a10df5.jpeg",
-    "static/media/resume.pdf": "/static/media/resume.c517cb033656a29abbb1.pdf",
     "static/media/rk.png": "/static/media/rk.515ed1512b6d5211f8aa.png",
     "index.html": "/index.html",
-    "main.d75bba0a.css.map": "/static/css/main.d75bba0a.css.map",
-    "main.65f756ee.js.map": "/static/js/main.65f756ee.js.map",
+    "main.5ca499c3.css.map": "/static/css/main.5ca499c3.css.map",
+    "main.2dea5bc5.js.map": "/static/js/main.2dea5bc5.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d75bba0a.css",
-    "static/js/main.65f756ee.js"
+    "static/css/main.5ca499c3.css",
+    "static/js/main.2dea5bc5.js"
   ]
 }
