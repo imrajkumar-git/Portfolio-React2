@@ -494,9 +494,7 @@ p {
 .heading span {
   color: rgba(103, 15, 234, 0.883);}
 
-.top {
-  margin-top: 10%;
-}
+
 
 .mtop {
   margin-top: 5%;
@@ -1140,7 +1138,7 @@ circle p {
 }
 
 .contact .right {
-  width: 60%;
+  width: 100%;
   padding: 30px;
 }
 

@@ -20,17 +20,18 @@ export const Contact = () =>{
   <section class="contact top" id="contact">
   
   <div class="container flex">
-    <div class="left">
+    {/* <div class="left">
     <Lottie options={defaultOptions} class='lottie'/> 
-    {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.7805688168573!2d85.27895471498917!3d27.693176132721618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb187a97f390b1%3A0xec3f47092df0d4ca!2z4KSV4KSy4KSC4KSV4KWALCDgpJXgpL7gpKDgpK7gpL7gpKHgpYzgpIEgNDQ2MDA!5e0!3m2!1sne!2snp!4v1675141095708!5m2!1sne!2snp"
-     style={{width:'25rem', height:'50rem'}}></iframe> */}
-    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.7805688168573!2d85.27895471498917!3d27.693176132721618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb187a97f390b1%3A0xec3f47092df0d4ca!2z4KSV4KSy4KSC4KSV4KWALCDgpJXgpL7gpKDgpK7gpL7gpKHgpYzgpIEgNDQ2MDA!5e0!3m2!1sne!2snp!4v1675141095708!5m2!1sne!2snp"
+     style={{width:'25rem', height:'50rem'}}></iframe>
+    </div> */}
 
     <div class="right">
       <div class="heading">
         <div class="heading_top flex">
          
         </div>
+        
         <div class="heading_bottom">
           <h2><span>{t('Send Me a Message')}</span></h2>
         </div>

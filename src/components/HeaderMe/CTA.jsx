@@ -1,5 +1,5 @@
 
-import Resume from "../../Assets/resume.pdf"
+import Resume from "../../Assets/resumes.pdf"
 import { useTranslation} from 'react-i18next';
 
 export const CTA = () =>{

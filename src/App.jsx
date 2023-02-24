@@ -4,7 +4,7 @@ import {Header} from "./components/HeaderMe/Header";
 import Preloader from '../src/pre';
 import {Navbar} from "./components/NavbarMe/Navbar";
 import {About} from "./components/AboutMe/About";
-
+import project from "./components/PortfolioMe/Projects";
 import {Education} from "./components/EducationMe/Education";
 
 // import {Experience} from "./components/ExperienceMe/Experience";
@@ -37,6 +37,7 @@ const App = () => {
    <About />
    <Education />
    {/* <Experience /> */}
+   <project/>
    <services />
    <Portfolio />
    <Contact />

@@ -5,7 +5,9 @@ html {
     rgba(12, 8, 24, 0.904)
   );
 }
-
+.color{
+  background-color: orangered;
+}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
 
 /* body {
@@ -33,7 +35,10 @@ code {
   text-decoration: none;
 }
 
-
+svg{
+  display:inline-block;
+  
+}
 :root {
   --white-color: #ffffff;
   --primary-color: #535da1;
