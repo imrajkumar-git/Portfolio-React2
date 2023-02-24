@@ -1,21 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ca499c3.css",
-    "main.js": "/static/js/main.2dea5bc5.js",
+    "main.css": "/static/css/main.6a8dd2c3.css",
+    "main.js": "/static/js/main.a909dc5e.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/resumes.pdf": "/static/media/resumes.dd049000a8aa7afdddf4.pdf",
     "static/media/nykaa.png": "/static/media/nykaa.2807712b99f2734b9176.png",
     "static/media/new3.png": "/static/media/new3.395b7c42206d6d3b45bd.png",
+    "static/media/paytm-screenshot.webp": "/static/media/paytm-screenshot.0009d9f68aa4962dc999.webp",
+    "static/media/omnifood.webp": "/static/media/omnifood.08322874a686fac386d0.webp",
+    "static/media/rode-website-clone.webp": "/static/media/rode-website-clone.e51d9f3a1778d4f2e5da.webp",
+    "static/media/shopify.webp": "/static/media/shopify.c0ee490fea3214983b7d.webp",
+    "static/media/github-finder-screenshot.png": "/static/media/github-finder-screenshot.4abb1c0adbc24faec1de.png",
     "static/media/Minimalist.png": "/static/media/Minimalist.a5196ab52c3e69fd07a8.png",
     "static/media/Tic-Tac-Toe.jpeg": "/static/media/Tic-Tac-Toe.09b5f193ceb818a10df5.jpeg",
+    "static/media/project-09.webp": "/static/media/project-09.fab546bf869cc7a84320.webp",
+    "static/media/project-13.webp": "/static/media/project-13.cc078007cfb4cc57cc24.webp",
+    "static/media/todo-screenshot.png": "/static/media/todo-screenshot.942de18912dfccd753f2.png",
     "static/media/rk.png": "/static/media/rk.515ed1512b6d5211f8aa.png",
+    "static/media/project-14.webp": "/static/media/project-14.52df8fdae828159b56cf.webp",
+    "static/media/project-11.webp": "/static/media/project-11.e39e1be6bf1d5c072100.webp",
+    "static/media/project-15.webp": "/static/media/project-15.93a2180e5fb4f7de3e7f.webp",
     "index.html": "/index.html",
-    "main.5ca499c3.css.map": "/static/css/main.5ca499c3.css.map",
-    "main.2dea5bc5.js.map": "/static/js/main.2dea5bc5.js.map",
+    "main.6a8dd2c3.css.map": "/static/css/main.6a8dd2c3.css.map",
+    "main.a909dc5e.js.map": "/static/js/main.a909dc5e.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ca499c3.css",
-    "static/js/main.2dea5bc5.js"
+    "static/css/main.6a8dd2c3.css",
+    "static/js/main.a909dc5e.js"
   ]
 }
